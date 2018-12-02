@@ -1,0 +1,329 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@section Style{
+    <!-- bootstrap-daterangepicker -->
+    <link href="~/vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+}
+<div class="right_col" role="main">
+    <div class="">
+        <div class="row top_tiles">
+            <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="tile-stats">
+                    <div class="icon"><i class="fa fa-caret-square-o-right"></i></div>
+                    <div class="count">350</div>
+                    <h3>Cars</h3>
+                    <p>Lorem ipsum psdea itgum rixt.</p>
+                </div>
+            </div>
+            <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="tile-stats">
+                    <div class="icon"><i class="fa fa-comments-o"></i></div>
+                    <div class="count">63</div>
+                    <h3>SUV</h3>
+                    <p>Lorem ipsum psdea itgum rixt.</p>
+                </div>
+            </div>
+            <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="tile-stats">
+                    <div class="icon"><i class="fa fa-sort-amount-desc"></i></div>
+                    <div class="count">189</div>
+                    <h3>E-Tag Vehicles</h3>
+                    <p>Lorem ipsum psdea itgum rixt.</p>
+                </div>
+            </div>
+            <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="tile-stats">
+                    <div class="icon"><i class="fa fa-check-square-o"></i></div>
+                    <div class="count">20</div>
+                    <h3>Total Parking Areas</h3>
+                    <p>Lorem ipsum psdea itgum rixt.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="x_panel">
+                    <div class="x_title">
+                        <h2>Transaction Summary <small>Weekly progress</small></h2>
+                        <div class="filter">
+                            <div id="reportrange" class="pull-right" style="background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #ccc">
+                                <i class="glyphicon glyphicon-calendar fa fa-calendar"></i>
+                                <span>October 19, 2018 - November 17, 2018</span> <b class="caret"></b>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="x_content">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="demo-container" style="height:280px">
+                                <div id="chart_plot_02" class="demo-placeholder" style="padding: 0px; position: relative;"><canvas class="flot-base" width="1013" height="280" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 1013px; height: 280px;"></canvas><div class="flot-text" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; font-size: smaller; color: rgb(84, 84, 84);"><div class="flot-x-axis flot-x1-axis xAxis x1Axis" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; display: block;"><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 62px; top: 265px; left: 66px; text-align: center;">18/11/18</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 62px; top: 265px; left: 162px; text-align: center;">20/11/18</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 62px; top: 265px; left: 259px; text-align: center;">22/11/18</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 62px; top: 265px; left: 355px; text-align: center;">24/11/18</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 62px; top: 265px; left: 451px; text-align: center;">26/11/18</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 62px; top: 265px; left: 548px; text-align: center;">28/11/18</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 62px; top: 265px; left: 644px; text-align: center;">30/11/18</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 62px; top: 265px; left: 740px; text-align: center;">02/12/18</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 62px; top: 265px; left: 836px; text-align: center;">04/12/18</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 62px; top: 265px; left: 933px; text-align: center;">06/12/18</div></div><div class="flot-y-axis flot-y1-axis yAxis y1Axis" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; display: block;"><div class="flot-tick-label tickLabel" style="position: absolute; top: 247px; left: 12px; text-align: right;">0</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 206px; left: 6px; text-align: right;">20</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 165px; left: 6px; text-align: right;">40</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 124px; left: 6px; text-align: right;">60</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 83px; left: 6px; text-align: right;">80</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 42px; left: 0px; text-align: right;">100</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 1px; left: 0px; text-align: right;">120</div></div></div><canvas class="flot-overlay" width="1013" height="280" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 1013px; height: 280px;"></canvas><div class="legend"><div style="position: absolute; width: 71px; height: 15px; top: -17px; right: 21px; background-color: rgb(255, 255, 255); opacity: 0.85;"> </div><table style="position:absolute;top:-17px;right:21px;;font-size:smaller;color:#3f3f3f"><tbody><tr><td class="legendColorBox"><div style="border:1px solid null;padding:1px"><div style="width:4px;height:0;border:5px solid rgb(150,202,89);overflow:hidden"></div></div></td><td class="legendLabel">Email Sent&nbsp;&nbsp;</td></tr></tbody></table></div></div>
+                            </div>
+                            <div class="tiles">
+                                <div class="col-md-4 tile">
+                                    <span>Total Sessions</span>
+                                    <h2>231,809</h2>
+                                    <span class="sparkline11 graph" style="height: 160px;"><canvas width="198" height="40" style="display: inline-block; width: 198px; height: 40px; vertical-align: top;"></canvas></span>
+                                </div>
+                                <div class="col-md-4 tile">
+                                    <span>Total Revenue</span>
+                                    <h2>$231,809</h2>
+                                    <span class="sparkline22 graph" style="height: 160px;"><canvas width="200" height="40" style="display: inline-block; width: 200px; height: 40px; vertical-align: top;"></canvas></span>
+                                </div>
+                                <div class="col-md-4 tile">
+                                    <span>Total Sessions</span>
+                                    <h2>231,809</h2>
+                                    <span class="sparkline11 graph" style="height: 160px;"><canvas width="198" height="40" style="display: inline-block; width: 198px; height: 40px; vertical-align: top;"></canvas></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="x_panel tile fixed_height_320">
+                    <div class="x_title">
+                        <h2>App Versions</h2>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="x_content">
+                        <h4>App Usage across versions</h4>
+                        <div class="widget_summary">
+                            <div class="w_left w_25">
+                                <span>0.1.5.2</span>
+                            </div>
+                            <div class="w_center w_55">
+                                <div class="progress">
+                                    <div class="progress-bar bg-green" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 66%;">
+                                        <span class="sr-only">60% Complete</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w_right w_20">
+                                <span>123k</span>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+
+                        <div class="widget_summary">
+                            <div class="w_left w_25">
+                                <span>0.1.5.3</span>
+                            </div>
+                            <div class="w_center w_55">
+                                <div class="progress">
+                                    <div class="progress-bar bg-green" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 45%;">
+                                        <span class="sr-only">60% Complete</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w_right w_20">
+                                <span>53k</span>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="widget_summary">
+                            <div class="w_left w_25">
+                                <span>0.1.5.4</span>
+                            </div>
+                            <div class="w_center w_55">
+                                <div class="progress">
+                                    <div class="progress-bar bg-green" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">
+                                        <span class="sr-only">60% Complete</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w_right w_20">
+                                <span>23k</span>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="widget_summary">
+                            <div class="w_left w_25">
+                                <span>0.1.5.5</span>
+                            </div>
+                            <div class="w_center w_55">
+                                <div class="progress">
+                                    <div class="progress-bar bg-green" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 5%;">
+                                        <span class="sr-only">60% Complete</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w_right w_20">
+                                <span>3k</span>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="widget_summary">
+                            <div class="w_left w_25">
+                                <span>0.1.5.6</span>
+                            </div>
+                            <div class="w_center w_55">
+                                <div class="progress">
+                                    <div class="progress-bar bg-green" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 2%;">
+                                        <span class="sr-only">60% Complete</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w_right w_20">
+                                <span>1k</span>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="x_panel tile fixed_height_320 overflow_hidden">
+                    <div class="x_title">
+                        <h2>Device Usage</h2>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="x_content">
+                        <table class="" style="width:100%">
+                            <tbody>
+                                <tr>
+                                    <th style="width:37%;">
+                                        <p>Top 5</p>
+                                    </th>
+                                    <th>
+                                        <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                                            <p class="">Device</p>
+                                        </div>
+                                        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                                            <p class="">Progress</p>
+                                        </div>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <iframe class="chartjs-hidden-iframe" style="width: 100%; display: block; border: 0px; height: 0px; margin: 0px; position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px;"></iframe>
+                                        <canvas class="canvasDoughnut" height="140" width="140" style="margin: 15px 10px 10px 0px; width: 140px; height: 140px;"></canvas>
+                                    </td>
+                                    <td>
+                                        <table class="tile_info">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <p><i class="fa fa-square blue"></i>IOS </p>
+                                                    </td>
+                                                    <td>30%</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p><i class="fa fa-square green"></i>Android </p>
+                                                    </td>
+                                                    <td>10%</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p><i class="fa fa-square purple"></i>Blackberry </p>
+                                                    </td>
+                                                    <td>20%</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p><i class="fa fa-square aero"></i>Symbian </p>
+                                                    </td>
+                                                    <td>15%</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p><i class="fa fa-square red"></i>Others </p>
+                                                    </td>
+                                                    <td>30%</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="x_panel tile fixed_height_320">
+                    <div class="x_title">
+                        <h2>Quick Settings</h2>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="x_content">
+                        <div class="dashboard-widget-content">
+                            <ul class="quick-list">
+                                <li>
+                                    <i class="fa fa-calendar-o"></i><a href="#">Settings</a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-bars"></i><a href="#">Subscription</a>
+                                </li>
+                                <li><i class="fa fa-bar-chart"></i><a href="#">Auto Renewal</a> </li>
+                                <li>
+                                    <i class="fa fa-line-chart"></i><a href="#">Achievements</a>
+                                </li>
+                                <li><i class="fa fa-bar-chart"></i><a href="#">Auto Renewal</a> </li>
+                                <li>
+                                    <i class="fa fa-line-chart"></i><a href="#">Achievements</a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-area-chart"></i><a href="#">Logout</a>
+                                </li>
+                            </ul>
+
+                            <div class="sidebar-widget">
+                                <h4>Profile Completion</h4>
+                                <canvas width="150" height="80" id="chart_gauge_01" class="" style="width: 160px; height: 100px;"></canvas>
+                                <div class="goal-wrapper">
+                                    <span id="gauge-text" class="gauge-value pull-left">3,200</span>
+                                    <span class="gauge-value pull-left">%</span>
+                                    <span id="goal-text" class="goal-value pull-right">100%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@section scripts {
+    <script src="~/vendors/Chart.js/dist/Chart.min.js"></script>
+    <!-- NProgress -->
+    <script src="~/vendors/nprogress/nprogress.js"></script>
+    <!-- jQuery Sparklines -->
+    <script src="~/vendors/jquery-sparkline/dist/jquery.sparkline.min.js"></script>
+    <!-- gauge.js -->
+    <script src="~/vendors/gauge.js/dist/gauge.min.js"></script>
+    <!-- bootstrap-progressbar -->
+    <script src="~/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+    <!-- iCheck -->
+    <script src="~/vendors/iCheck/icheck.min.js"></script>
+    <!-- Skycons -->
+    <script src="~/vendors/skycons/skycons.js"></script>
+    <!-- Flot -->
+    <script src="~/vendors/Flot/jquery.flot.js"></script>
+    <script src="~/vendors/Flot/jquery.flot.pie.js"></script>
+    <script src="~/vendors/Flot/jquery.flot.time.js"></script>
+    <script src="~/vendors/Flot/jquery.flot.stack.js"></script>
+    <script src="~/vendors/Flot/jquery.flot.resize.js"></script>
+    <!-- Flot plugins -->
+    <script src="~/vendors/flot.orderbars/js/jquery.flot.orderBars.js"></script>
+    <script src="~/vendors/flot-spline/js/jquery.flot.spline.min.js"></script>
+    <script src="~/vendors/flot.curvedlines/curvedLines.js"></script>
+    <!-- DateJS -->
+    <script src="~/vendors/DateJS/build/date.js"></script>
+    <!-- bootstrap-daterangepicker -->
+    <script src="~/vendors/moment/min/moment.min.js"></script>
+    <script src="~/vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
+    <!-- Custom Theme Scripts -->
+    <script src="~/build/js/custom.min.js"></script>
+}
